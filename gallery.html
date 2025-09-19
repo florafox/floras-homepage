@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="gallery/style.css">
+	<link rel="stylesheet" href="css/base.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="gallery/jquery.flipster.min.css">
+</head>
+<body>
+	<div id="globalheader">
+		<h1><a href="index.html">Flora's Homepage</a></h1>
+		<ul>
+			<li id="globalnav-home" class="first"><a href="index.html">Home</a></li>
+			<li id="globalnav-about"><a href="gallery.html">Gallery</a></li>		
+			<li id="globalnav-about"><a href="projects.html">Projects</a></li>
+			<li id="globalnav-events"><a href="resources.html">Resources</a></li>
+			<li id="globalnav-about"><a href="about.html">About</a></li>
+		</ul>
+	</div>
+  <div class="banner">
+      <div class="carousel">
+          <ul>
+              <li>
+                  <img src="gallery/images/img1.png" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img2.jpg" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img3.jpg" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img4.png" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img5.png" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img6.jpg" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img7.jpg" alt="">
+              </li>
+              <li>
+                <img src="gallery/images/img8.png" alt="">
+              </li>
+          </ul>
+	</div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="gallery/jquery.flipster.min.js"></script>
+  <script>
+    $('.carousel').flipster({
+        style:'carousel',
+        spacing:-0.3,
+    });
+</script>
+</body>
+</html>
