@@ -107,12 +107,12 @@ p.last, ul.last, ol.last, li.last {
 	background: #fff url(../images/header_logo_20080725.png) no-repeat;
 	behavior: url(../scripts/lib/iepngfix.htc);
 	display: block;
-	height: 50px;
+	height: 60px;
 	outline: none;
 	overflow: hidden;
 	text-decoration: none;
 	text-indent: -9999px;
-	width: 192px;
+	width: 202px;
 }
 /*#globalheader h2 a {
 	background: #007341 url(../elements/base/header_slogan_20070928.png) no-repeat 0 100%;
